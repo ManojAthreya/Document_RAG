@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "docs-rag"
+version = "0.1.0"
+description = "Ingest your documents and harness the power of LLM to get answers"
+authors = ["Manoj Athreya <manoj2375@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+langchain = "^0.2.12"
+pymongo = "^4.8.0"
+streamlit = "^1.37.1"
+unstructured-client = "^0.25.4"
+langchain-core = "^0.2.29"
+langchain-openai = "^0.1.20"
+langchain-mongodb = "^0.1.8"
+urllib3 = "^2.2.2"
+python-dotenv = "^1.0.1"
+poppler-utils = "^0.1.0"
+pillow = "^10.4.0"
+nest-asyncio = "^1.6.0"
+langchain-community = "^0.2.11"
+fastapi = "^0.112.0"
+requests = "^2.32.3"
+unstructured = "^0.15.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
